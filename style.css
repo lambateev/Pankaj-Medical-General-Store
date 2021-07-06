@@ -213,8 +213,7 @@
 
     .cont:hover {
         box-shadow: 0 2rem 2rem 0 cyan;
-        width: 26rem;
-        height: 14rem;
+       
     }
 
     /* Categories Section Styling Ends */
