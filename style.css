@@ -1,0 +1,449 @@
+    /* General Styling Starts */
+
+    * {
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        
+    }
+
+    html {
+        font-size: 10px;
+    }
+
+    /* General Styling Ends */
+
+
+    /* Navbar Styling Starts */
+
+    nav {
+        width: 100%;
+        
+
+    }
+
+    .navbar {
+        background-color: rgb(7, 81, 110);
+        padding: 3rem 0 3rem 0;
+        color: whitesmoke;
+        position: top;
+
+    }
+
+    .logo {
+        color: cyan;
+        font-size: 3rem;
+        padding-left: 3rem;
+        font-weight: bold;
+
+    }
+
+    nav ul {
+        list-style: none;
+        float: right;
+        margin-right: 2.5rem;
+
+    }
+
+    nav ul li {
+        display: inline-block;
+        padding-right: 2.5rem;
+
+    }
+
+    nav ul li a {
+        color: white;
+        font-size: 2.5rem;
+        text-decoration: none;
+
+    }
+
+    nav a:hover {
+        color: cyan;
+        transition: 1s;
+    }
+
+    .checkbtn {
+        font-size: 3rem;
+        color: whitesmoke;
+        float: right;
+        padding-right: 3rem;
+        cursor: pointer;
+        display: none;
+    }
+
+    .checkbtn i:hover {
+        color: cyan;
+
+    }
+
+    #check {
+        display: none;
+
+
+    }
+
+    /* Navbar Styling Ends */
+
+    /* Landing Page Styling Starts */
+
+    #one {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        padding-top: 8rem;
+        overflow: hidden;
+    }
+
+    .pharm img {
+        width: 72rem;
+    }
+
+    .quote p {
+        font-size: 3.5rem;
+        color: rgb(7, 81, 110);
+        margin-top: 18rem;
+        font-weight: bold;
+        text-shadow: 0 0 2px cyan, 0 0 2px cyan;
+        padding-bottom: 1rem;
+    }
+
+    .reachbtn a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+
+    .reachbtn {
+        padding: 1rem 2rem;
+        border-radius: 3rem;
+        border: 0;
+        box-shadow: .1rem .1rem .5rem cyan, -.1rem -.1rem .5rem cyan;
+        background-color: rgb(7, 81, 110);
+    }
+
+    .reachbtn i {
+        font-size: 2rem;
+    }
+
+    .reachbtn:hover {
+        box-shadow: .2rem .2rem 1rem cyan, -.2rem -.2rem 1rem cyan;
+    }
+
+    /* Landing Page Styling Ends */
+
+    /* About Section Styling Starts */
+    #two {
+        margin-top: 15rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        overflow: hidden;
+    }
+
+    .abouthead h1 {
+        text-align: center;
+        font-size: 5rem;
+        color: rgb(7, 81, 110);
+        text-decoration: underline cyan;
+    }
+
+    .aboutpara {
+        color: rgb(7, 81, 110);
+        text-align: justify;
+        padding-top: 4rem;
+        font-size: 3rem;
+    }
+
+    .about {
+        text-decoration: underline cyan;
+
+    }
+
+    .aboutpara a {
+        color: rgb(7, 81, 110);
+        text-decoration: underline cyan;
+        font-weight: 600;
+    }
+
+
+    /* About Section Styling Ends */
+
+
+    /* Categories Section Starts */
+
+    #three {
+        margin-top: 15rem;
+        overflow: hidden;
+
+    }
+
+    .categoryhead h1 {
+        text-align: center;
+        font-size: 5rem;
+        color: rgb(7, 81, 110);
+        text-decoration: underline cyan;
+        padding-bottom: 4rem;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+
+    .cont {
+        box-shadow: 0 .8rem .8rem 0 cyan;
+        background-color: white;
+        transition: 0.5s;
+        padding: 2rem;
+        width: 24rem;
+        height: 12rem;
+        text-align: center;
+        font-size: 3rem;
+        color: rgb(7, 81, 110);
+        margin: 5rem;
+
+
+    }
+
+    .cont:hover {
+        box-shadow: 0 2rem 2rem 0 cyan;
+        width: 26rem;
+        height: 14rem;
+    }
+
+    /* Categories Section Styling Ends */
+
+    /* Contact Section Styling Ends */
+    #four {
+        margin-top: 15rem;
+        margin-bottom: 10rem;
+        overflow: hidden;
+
+    }
+
+    .contacthead h1 {
+        text-align: center;
+        font-size: 5rem;
+        color: rgb(7, 81, 110);
+        text-decoration: underline cyan;
+        padding-bottom: 10rem;
+    }
+
+    .contactpara {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        display: flex;
+        margin-bottom: 10rem;
+
+    }
+
+    .contactpara img {
+        width: 50rem
+    }
+
+    .card {
+        box-shadow: 0 1rem 1rem 0 cyan;
+        transition: 0.5s;
+        padding: 10px;
+        border-radius: .5rem;
+
+    }
+
+    .card:hover {
+        box-shadow: 0 3rem 3rem 0 cyan;
+
+    }
+
+    .container {
+        text-align: center;
+        color: rgb(7, 81, 110);
+        font-size: 2.5rem;
+        padding: .5rem;
+    }
+
+    .mynum {
+        text-decoration: underline cyan;
+        line-height: 3rem;
+        color: rgb(7, 81, 110);
+
+    }
+
+    .shopdetail {
+        color: rgb(7, 81, 110);
+        font-size: 2rem;
+        line-height: 5rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .shopdetail a {
+        color: rgb(7, 81, 110);
+        font-size: 2rem;
+        text-decoration: underline cyan;
+    }
+
+    .shopdetail i {
+        font-size: 3rem;
+        font-weight: bold;
+
+    }
+
+    /* Footer Styling Starts */
+
+
+    footer p {
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 1.5rem;
+        color: rgb(7, 81, 110);
+
+    }
+
+    footer hr {
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-bottom: 3rem;
+        border-color: cyan;
+
+    }
+
+    /* Footer Styling Ends */
+
+
+
+    /* Responsive Styling Starts*/
+
+    @media(max-width:1100px) {
+        html {
+            font-size: 8.8px;
+        }
+
+        .quote p {
+            margin-top: 12rem;
+        }
+
+    }
+
+    @media(max-width:960px) {
+        html {
+            font-size: 8px;
+        }
+
+    }
+
+    @media(max-width:875px) {
+        .checkbtn {
+            display: block;
+
+        }
+
+        nav {
+            position: fixed;
+            z-index: 100;
+        }
+
+        nav ul {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(7, 81, 110);
+            padding-top: 5rem;
+            left: -100%;
+            text-align: center;
+            transition: all .5s;
+            
+
+        }
+
+        nav ul li {
+            display: block;
+            margin: 5rem 0;
+            line-height: 3rem;
+            padding-left: 3rem;
+            padding-top: 4rem;
+
+        }
+
+        nav ul li a {
+            font-size: 3rem;
+        }
+
+        nav a:hover {
+            color: cyan;
+        }
+
+        #check:checked~ul {
+            left: 0;
+        }
+
+        .pharm img {
+            display: none;
+        }
+
+        #one {
+            text-align: center;
+            margin: 0 3rem 0 3rem;
+            display: block;
+            padding-top: 2rem;
+        }
+
+        #two {
+            margin: 5rem 3rem 0 3rem;
+        }
+
+        .contactpara .card {
+            margin-bottom: 5rem;
+        }
+
+
+
+
+    }
+
+    @media(max-width:550px) {
+        .logo {
+            font-size: 2.5rem;
+            padding-left: 1rem;
+        }
+
+        .checkbtn {
+            font-size: 3rem;
+            padding-right: 1rem;
+        }
+
+        .aboutpara {
+            font-size: 2rem;
+
+        }
+
+    }
+
+    @media(max-width:475px) {
+
+        .contactpara img {
+            width: 40rem;
+        }
+
+    }
+
+    @media(max-width:376px) {
+        .logo {
+            font-size: 2rem;
+            padding-left: 1rem;
+        }
+
+        .checkbtn {
+            font-size: 2rem;
+            padding-right: 1rem;
+        }
+
+    }
+
+    /* Responsive Styling Ends */
